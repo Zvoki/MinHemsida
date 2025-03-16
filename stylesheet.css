@@ -1,0 +1,18 @@
+h1,h2 {
+    text-align: center;
+}
+p{
+    text-align: auto;
+}
+video {
+ width: auto ;
+}
+table {
+    width: 100%;
+}
+td, th {
+    text-align: left;
+}
+.copyright {
+    text-align: center;
+}

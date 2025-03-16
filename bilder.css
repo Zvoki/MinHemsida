@@ -1,0 +1,14 @@
+.bilder {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+justify-content: center;
+width: 55%;/* Keeps the container at a specific width */
+margin: 1px auto;/* Centers the container horizontally */
+    }
+   
+    img{
+       position: relative ;
+        width: 400px;
+        height: 200px;
+        padding: 1px;
+    }
