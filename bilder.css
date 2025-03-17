@@ -1,6 +1,6 @@
 .bilder {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr); /*This will create a grid with two columns, each with a flexible fraction of the available space*/
 justify-content: center;
 width: 55%;/* Keeps the container at a specific width */
 margin: 1px auto;/* Centers the container horizontally */
