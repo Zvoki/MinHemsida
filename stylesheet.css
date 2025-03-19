@@ -9,6 +9,7 @@ video {
 }
 table {
     width: 100%;
+    border: 1px solid black;
 }
 td, th {
     text-align: left;
@@ -16,6 +17,12 @@ td, th {
 .copyright {
     text-align: center;
 }
-menu {
-    
+table ,th, td {
+    border: 1px solid black;
+}
+th {
+    background-color:lightgray;
+}
+.link-gap {
+    margin-right: 10px;
 }
