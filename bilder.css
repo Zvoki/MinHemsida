@@ -1,15 +1,18 @@
 .bilder {
     display: grid;
-    grid-template-columns: repeat(2,1fr); /*This will create a grid with two columns, each with a flexible fraction of the available space*/
-justify-content: center;
-width: 55%;/*Keeps the container at a specific width */
-margin: 1px auto;/* Centers the container horizontally */
-align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px; /* Sve ćelije će imati istu visinu */
+    gap: 5px;
+}
+
+
+    img {
+        width: 100%; 
+        height: 100%; /* Ispunjava visinu ćelije */
+        object-fit: cover; /* Smanjuje ili povećava sliku da ispuni ćeliju */
     }
-   
-    img{
-       position: relative ;
-        width: 400px;
-        height: 200px;
-        padding: 1px;
-    }
+    
+    
+    
+    
+
